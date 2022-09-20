@@ -18,12 +18,31 @@
 # 5. The system will tell us if the word “python” is inside the text. This part can be a bit complicated to imagine, but I'll give you a hint: you can use Booleans to make your enquiry and a dictionary to find ways to express your answer.
 
 
-
-
+# SOURCES
 text = input("Enter a work of literature: ")
 let1 = input("Enter a random letter: ")
 let2 = input("Enter a random letter: ")
 let3 = input("Enter a random letter: ")
 
+# SECTION ONE
+list0 = text.index(let1)
+list1 = text.index(let2)
+list2 = text.index(let3)
+print(list0)
+print(list1)
+print(list2)
+# SECTION TWO
+two_list = text.split(" ")
+print(len(two_list))
 
+# SECTION THREE
+index = text.split()
+first_word = index[0]
+last_word = index[-1]
+
+# SECTION FOUR
+reversed = text.order(reverse)
+print(reveresed)
+
+# SECTION FIVE
 

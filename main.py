@@ -23,36 +23,34 @@ text = input("Enter a work of literature: ")
 let1 = input("Enter a random letter: ")
 let2 = input("Enter a random letter: ")
 let3 = input("Enter a random letter: ")
-
-# SECTION ONE ---------------- DONE
-lowerLet = let1.lower, let2.lower, let3.lower
-upperLet = let1.upper, let2.upper, let3.upper
-lowerTotal = text.count(let1) + text.count(let2) + text.count(let3)
-upperTotal = text.count(let1) + text.count(let2) + text.count(let3)
-
-print(lowerTotal)
-print(upperTotal)
 print("-------")
-# SECTION TWO ---------------- DONE
+# SECTION ONE ---------------- DONE
+upperlet1 = let1.upper()
+upperlet2 = let2.upper()
+upperlet3 = let3.upper()
+lowerlet1 = let1.lower()
+lowerlet2 = let2.lower()
+lowerlet3 = let3.lower()
+lowerTotal = text.count(upperlet1) + text.count(upperlet2) + text.count(upperlet3)
+upperTotal = text.count(lowerlet1) + text.count(lowerlet2) + text.count(lowerlet3)
+joined = lowerTotal + upperTotal
+
+print("Total times letters appear: " + str(joined))
+print("-------")
+# SEClowerlet1TWO ---------------- DONE
 two_list = text.split(" ")
-print(len(two_list))
+print("Amount of words in the literature: " + str(len(two_list)))
+print("-------")
 
 # SECTION THREE ---------------- DONE
-print(text[0])
-print(text[-1])
+print("First letter: " + str(text[0]))
+print("Last letter: " + str(text[-1]))
+print("-------")
+# SECTION FOUR ---------------- DONE
+print("Reversed text: " + str(text[::-1]))
+print("-------")
+# SECTION FIVE ---------------- DONE
+p = "python" in text
+print("Is 'python' in the literature? " + str(p))
 
-# SECTION FOUR
-print(text[::-1])
 
-# SECTION FIVE
-
-p = "p" in text
-y = "y" in text
-t = "t" in text
-h = "h" in text
-o = "o" in text
-n = "n" in text
-python = 
-print(python)
-
-# im gonna push it hold up

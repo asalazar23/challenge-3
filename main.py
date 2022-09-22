@@ -24,25 +24,35 @@ let1 = input("Enter a random letter: ")
 let2 = input("Enter a random letter: ")
 let3 = input("Enter a random letter: ")
 
-# SECTION ONE
-list0 = text.index(let1)
-list1 = text.index(let2)
-list2 = text.index(let3)
-print(list0)
-print(list1)
-print(list2)
-# SECTION TWO
+# SECTION ONE ---------------- DONE
+lowerLet = let1.lower, let2.lower, let3.lower
+upperLet = let1.upper, let2.upper, let3.upper
+lowerTotal = text.count(let1) + text.count(let2) + text.count(let3)
+upperTotal = text.count(let1) + text.count(let2) + text.count(let3)
+
+print(lowerTotal)
+print(upperTotal)
+print("-------")
+# SECTION TWO ---------------- DONE
 two_list = text.split(" ")
 print(len(two_list))
 
-# SECTION THREE
-index = text.split()
-first_word = index[0]
-last_word = index[-1]
+# SECTION THREE ---------------- DONE
+print(text[0])
+print(text[-1])
 
 # SECTION FOUR
-reversed = text.order(reverse)
-print(reveresed)
+print(text[::-1])
 
 # SECTION FIVE
 
+p = "p" in text
+y = "y" in text
+t = "t" in text
+h = "h" in text
+o = "o" in text
+n = "n" in text
+python = 
+print(python)
+
+# im gonna push it hold up
